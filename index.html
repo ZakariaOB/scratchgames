@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kids Games Gallery</title>
+    <style>
+      body {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      .game-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+      }
+
+      .game-card {
+        margin: 10px;
+        padding: 20px;
+        background-color: #fff;
+        border: 2px solid #3498db;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s;
+      }
+
+      .game-card:hover {
+        transform: scale(1.05);
+      }
+
+      .game-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .game-card a {
+        text-decoration: none;
+        display: block;
+        margin-top: 10px;
+        padding: 10px;
+        color: #333;
+        background-color: #3498db;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .game-card a:hover {
+        background-color: #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Explore Our Kids Games Gallery for OUSSAMA</h1>
+
+    <div class="game-gallery">
+      <!-- Game 1 -->
+      <div class="game-card">
+        <img src="images/fighting-cube.jpg" alt="Fighting cube game" />
+        <a href="fighting-game.html">Fighting cube game</a>
+      </div>
+    </div>
+  </body>
+</html>
